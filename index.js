@@ -16,6 +16,10 @@ let posts = [
     content: "Keep Coding",
   },
   {
+    username: "Deep",
+    content: "Coding",
+  },
+  {
     username: "Shivam",
     content: "new code Coding",
   },
