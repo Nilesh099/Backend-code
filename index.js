@@ -16,6 +16,10 @@ let posts = [
     content: "Keep Coding",
   },
   {
+    username: "Ganesh",
+    content: "Keep Coding",
+  },
+  {
     username: "Deep",
     content: "Coding",
   },
@@ -33,6 +37,11 @@ app.get("/posts", (req, res) => {
   res.render("index.ejs", { posts });
 });
 
+app.get("/posts/new", (req, res) => {
+  res.render("new.ejs");
+});
+
 app.listen(port, () => {
   console.log(`Server is running on port ${port}`);
 });
+  
